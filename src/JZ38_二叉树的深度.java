@@ -10,6 +10,10 @@
  }
  */
 
+/*
+    递归算法，树的深度等于左右子树深度较大者加上1。
+ */
+
 public class Solution {
     public int TreeDepth(TreeNode root) {
         if (root == null) return 0;

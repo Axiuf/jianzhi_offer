@@ -10,6 +10,9 @@
  }
  */
 
+/*
+    递归算法，先交换左右子树，然后分别递归调用去交换左右子树的子树。
+ */
 public class Solution {
     public void Mirror(TreeNode root) {
         if (root == null) return;
